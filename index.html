@@ -165,7 +165,6 @@
             color: var(--primary-color);
         }
         
-        /* CORREÇÃO APLICADA AQUI */
         .main-nav ul li.nav-cta a {
             padding: 10px 22px;
             background-color: var(--primary-color);
@@ -309,11 +308,11 @@
             text-align: center;
         }
         
+        /* CORREÇÃO APLICADA AQUI */
         .about-image img {
             max-width: 100%;
             width: 400px;
-            border-radius: 15px;
-            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+            /* box-shadow e border-radius removidos para ícone transparente */
         }
         
         /* Seção de Contato */
@@ -522,7 +521,6 @@
     <header class="main-header">
         <div class="container">
             <a href="#hero">
-                <!-- ATUALIZADO: Caminho local para a imagem -->
                 <img src="images/logo.png" alt="Logomarca neivus" class="logo">
             </a>
             <nav class="main-nav">
@@ -596,7 +594,6 @@
                      <a href="#contact" class="btn">Vamos criar juntos?</a>
                 </div>
                 <div class="about-image fade-in" style="transition-delay: 100ms;">
-                    <!-- ATUALIZADO: Caminho local para a imagem -->
                     <img src="images/icon.png" alt="Ícone neivus">
                 </div>
             </div>
@@ -655,7 +652,6 @@
     <footer class="main-footer">
         <div class="container footer-container">
             <a href="#hero">
-                 <!-- ATUALIZADO: Caminho local para a imagem -->
                 <img src="images/logo.png" alt="Logomarca neivus" class="footer-logo">
             </a>
             <p class="footer-copyright">&copy; 2025 neivus. Todos os direitos reservados.</p>
